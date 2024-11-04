@@ -1,30 +1,30 @@
 ---
-- name: Lebron James
-  sport: Basketball
-  team:
+- name: Lebron James # Name of the player
+  sport: Basketball # The sport they play
+  team: # The team they are on and what city it is in
     name: Lakers
     city: Los Angeles
-  position: Forward
-  age: '38'
-- name: Lionel Messi
-  sport: Soccer
-  team:
-    name: Inter Miami
+  position: Forward # The position the player plays
+  age: '38' # How old the player is 
+- name: Lionel Messi # Name of the player
+  sport: Soccer # The sport they play
+  team: # The team they are on and what city it is in
+    name: Inter Miami 
     city: Miami
-  position: Forward
-  age: '36'
-- name: Serena Williams
-  sport: Tennis
-  team:
+  position: Forward # The position the player plays
+  age: '36' # How old the player is
+- name: Serena Williams # The name of the player
+  sport: Tennis # The sport they play
+  team: # This player has no team but is from the city Michigan
     name: No Team
     city: Michigan
-  position: Player
-  age: '41'
-- name: Tom Brady
-  sport: Football
-  team:
+  position: Player # This player has no specialized position so is only labeled as player
+  age: '41' # How old the player is
+- name: Tom Brady # Name of the player
+  sport: Football # The sport they play
+  team: # The team they are on and what city it is in
     name: Buccaneers
     city: Tampa Bay
-  position: Quarterback
-  age: '46'
+  position: Quarterback # The position the player plays
+  age: '46' # How old the player is
 
