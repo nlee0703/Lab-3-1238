@@ -2,8 +2,8 @@ import csv
 import json
 
 # Read the CSV file and convert it to a list of dictionaries
-csv_file_path = 'players.csv'  # Update this path if necessary
-json_file_path = 'players.json'  # Output JSON file
+csv_file_path = 'labs/players.csv'  # Update this path if necessary
+json_file_path = 'lab/players.json'  # Output JSON file
 
 data = []
 
