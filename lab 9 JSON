@@ -1,1 +1,20 @@
+import csv
+import json
 
+# Read the CSV file and convert it to a list of dictionaries
+csv_file_path = 'players.csv'  # Update this path if necessary
+json_file_path = 'players.json'  # Output JSON file
+
+data = []
+
+# Reading CSV and adding each row as a dictionary in the data list
+with open(csv_file_path, mode='r') as csv_file:
+    csv_reader = csv.DictReader(csv_file)  # DictReader converts each row to a dictionary
+    for row in csv_reader:
+        data.append(row)
+
+# Writing data to a JSON file
+with open(json_file_path, mode='w') as json_file:
+    json.dump(data, json_file, indent=4)
+
+print("CSV file has been successfully converted to JSON format.")
